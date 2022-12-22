@@ -169,3 +169,29 @@ local Button = scripts:CreateButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/NevieQ/D-Darkhub/main/source'))()	-- The function that takes place when the button is pressed
 	end,
 })
+--UTG script
+local Script2 = scripts:CreateSection("UTG script")
+
+local Button = scripts:CreateButton({
+	Name = "UTG gui",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NevieQ/UTG/main/script"))()	-- The function that takes place when the button is pressed
+	end,
+})
+--others
+local others = Window:CreateTab("others")
+local Gui1 = others:CreateSection("Gui")
+
+local Button = others:CreateButton({
+	Name = "Destroy the gui",
+	Callback = function()
+        Rayfield:Destroy()	-- The function that takes place when the button is pressed
+	end,
+})
+
+local Button = others:CreateButton({
+	Name = "Reaload gui",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NevieQ/D-darkhubOff/main/source"))()    -- The function that takes place when the button is pressed
+	end,
+})
