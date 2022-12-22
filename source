@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Window = Rayfield:CreateWindow({
-	Name = "D/Darkhub",
+	Name = "D/Darkhub v.0.01",
 	LoadingTitle = "D/Darkhub",
 	LoadingSubtitle = "By NotNevieQ",
 	ConfigurationSaving = {
